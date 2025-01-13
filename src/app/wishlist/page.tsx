@@ -62,7 +62,7 @@ const WishList = () => {
                 <button className="xs:px-8 xs:py-3 px-6 py-2 border-[1px] font-medium xs:text-base text-sm rounded-sm border-zinc-500">Move All To Bag</button>
             </div>
             <div className="w-full flex flex-wrap sm:gap-6 gap-3 justify-center my-8">
-                <Card arr={data} />
+                <Card/>
             </div>
             <div className="w-full flex justify-between items-center">
                 <div className="w-full flex items-center gap-3">
@@ -72,7 +72,7 @@ const WishList = () => {
                 <button className="xs:px-10 xs:py-3 px-8 py-2 border-[1px] font-medium xs:text-base text-sm rounded-sm border-zinc-500 text-nowrap">See All</button>
             </div>
             <div className="w-full flex flex-wrap sm:gap-6 gap-3 justify-center my-8">
-                <Card arr={foryou} />
+                <Card/>
             </div>
         </div>
     )
